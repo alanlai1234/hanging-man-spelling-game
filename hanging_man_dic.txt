@@ -15,6 +15,7 @@ board
 bottom
 breakfast
 broken
+before
 build
 building
 built
@@ -31,3 +32,16 @@ country
 discover
 doctor
 dollar
+dictator
+exchange
+stock
+rage
+backpack
+general
+mayor
+capital
+found
+warrior
+electronic
+disagree
+satisfy

@@ -11,7 +11,8 @@ int cur_bodypart;
 char draw[6][4] ={" | \0", "( )\0", "_|_\0", " | \0", "/ \\\0", "___\0"};
 void print(void);
 
-int main(void){
+int main(){
+
     cur_bodypart=0;
     FILE *fp;
     int random, amount=1;
@@ -62,7 +63,7 @@ void check (char input){
         if(str[i]==input){
             correct=1;
             underline[i]=str[i];
-        }
+       }
     }
     if(!correct){
         printf("\033[0;31m");
